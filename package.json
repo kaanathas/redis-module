@@ -1,0 +1,22 @@
+{
+  "name": "redis-lock-in-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node test/instance-test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaanathas",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/node-cache": "^4.2.5",
+    "@types/redis": "^2.8.27",
+    "node-cache": "^5.1.2",
+    "redis": "^3.0.2"
+  }
+}
